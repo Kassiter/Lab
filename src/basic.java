@@ -22,7 +22,7 @@ public class basic {
 	public String getName() {
 		return this.name;
 	}
-	public int getAmound() {
+	public int getAmount() {
 		return this.amount;
 	}
 	public double getVersion() {
