@@ -12,4 +12,20 @@ public class basic {
 		this.amount = a;
 		this.version=v;
 	}
+	public boolean OldVersion(double v) {
+		boolean b=false;
+		if(v>this.version) {
+			b=true;
+		}
+		return b;
+	}
+	public String getName() {
+		return this.name;
+	}
+	public int getAmound() {
+		return this.amount;
+	}
+	public double getVersion() {
+		return this.version;
+	}
 }
